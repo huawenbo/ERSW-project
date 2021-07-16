@@ -26,7 +26,24 @@ def roc_plot(fpr, tpr, roc_auc,model_name = '',title = 'Receiver operating chara
     plt.title(title)
     plt.legend(loc="lower right")
     plt.show()
+    
+def pr_plot(value, name, title ='Precision recall characteristic'):
+    fp = value[0]*wrong
+    tn = wrong - fp
+    tp = value[1]*truth
+    fn = truth - tp
+    recall = tp/(tp + fn)
+    precision = np.insert(tp[1:]/(tp[1:] + fp[1:]),1,1)
+    plt.plot(recall, precision,label = name)
+    plt.xlim([0.0, 1.02])
+    plt.ylim([0.7, 1.02])
+    plt.xlabel('Recall')
+    plt.ylabel('Precision')
+    plt.title(title)
+    plt.legend(loc="lower left")
+    plt.show()
 
+        
 data = np.load('roc/123/valid/10.npy')
 print(roc_auc_score(data[0],data[1]))
 roc_plot(data[0],data[1],roc_auc_score(data[0],data[1]))
