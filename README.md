@@ -1,10 +1,10 @@
 # ERSW-project
 
-## This is the code repository for the article: [*An interpretable early dynamic sequential predictor for sepsis-induced coagulopathy progression in the real-world using AI*](https://www.hao123.com), which is published in Frontiers in Medicine.  
+#### This is the code repository for the article: [*An interpretable early dynamic sequential predictor for sepsis-induced coagulopathy progression in the real-world using AI*](https://www.hao123.com), which is published in Frontiers in Medicine.  
 
-&nbsp;
+### 1. Here are some results of the article.
 
-### 1. This is the code structure of ERSW-project-main.
+### 2. This is the code structure of ERSW-project-main.
 
 - Code structure
 
@@ -26,12 +26,10 @@
   >  
   > > <text>main.py</text>  
 
-### 2. The repository provides the code of our research reproduction as follows:
+### 3. The repository provides the code of our research reproduction as follows:
 
 - Install necessary Python dependencies, such as "torch", 'shap', and so on.
 - Acquire or generate the necessary Dataset which are used for analysis by the following ways.
-    - BIDMC set data were obtained from the MIMIC-III database, which can be downloaded from *https://mimic.mit.edu/iii*.
-    - XJTUMC set data were obtained from the Biobank of First Affiliated Hospital of Xi’an Jiaotong University, which is a restricted-access resource and is only available by submitting a request to the author and the institution. You can send your request to the email: *hwb0856@stu.xjtu.edu.cn*
+    - **BIDMC** dataset were obtained from the MIMIC-III database, which can be downloaded from *https://mimic.mit.edu/iii*.
+    - **XJTUMC** dataset were obtained from the Biobank of First Affiliated Hospital of Xi’an Jiaotong University, which is a restricted-access resource and is only available by submitting a request to the author and the institution. You can send your request to the email: *hwb0856@stu.xjtu.edu.cn*
 - Run *<text>main.py</text>* to deal with the data and develop the model for predicting the coagulopathy.
-
-### 3. Here are some results of the article.
