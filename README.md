@@ -1,6 +1,6 @@
 # ERSW-project
 
-#### This is the code repository for the article: [*An interpretable early dynamic sequential predictor for sepsis-induced coagulopathy progression in the real-world using AI*](https://www.hao123.com), which is published in Frontiers in Medicine.  
+#### This is the code repository for the article: [*An interpretable early dynamic sequential predictor for sepsis-induced coagulopathy progression in the real-world using AI*](https://www.frontiersin.org/articles/10.3389/fmed.2021.775047/full), which is published in Frontiers in Medicine.  
 
 ### 1. Here are some results of the article.
 
